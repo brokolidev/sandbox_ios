@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA625F91254FC280002A65E0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA625F90254FC280002A65E0 /* MapView.swift */; };
 		EA8C805B254FA2AF00305679 /* sandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C805A254FA2AF00305679 /* sandboxApp.swift */; };
 		EA8C805D254FA2AF00305679 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C805C254FA2AF00305679 /* ContentView.swift */; };
 		EA8C805F254FA2B000305679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8C805E254FA2B000305679 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA625F90254FC280002A65E0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EA8C8057254FA2AF00305679 /* sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8C805A254FA2AF00305679 /* sandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandboxApp.swift; sourceTree = "<group>"; };
 		EA8C805C254FA2AF00305679 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				EA8C806A254FADE300305679 /* Models */,
 				EA8C805A254FA2AF00305679 /* sandboxApp.swift */,
 				EA8C805C254FA2AF00305679 /* ContentView.swift */,
+				EA625F90254FC280002A65E0 /* MapView.swift */,
 				EA8C805E254FA2B000305679 /* Assets.xcassets */,
 				EA8C8063254FA2B000305679 /* Info.plist */,
 				EA8C8060254FA2B000305679 /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8C805D254FA2AF00305679 /* ContentView.swift in Sources */,
+				EA625F91254FC280002A65E0 /* MapView.swift in Sources */,
 				EA8C805B254FA2AF00305679 /* sandboxApp.swift in Sources */,
 				EA8C806C254FADF400305679 /* VeganFoodPlace.swift in Sources */,
 			);
