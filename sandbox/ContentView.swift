@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import PusherSwift
 
 struct ContentView: View {
     
+    @EnvironmentObject var chat: Chat
+    
     var body: some View {
-        Text("test")
+        Text(chat.message)
         
         Button(action: {
             print("Test")

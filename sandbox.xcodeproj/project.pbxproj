@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7795512707F61465FF23152D /* Pods_sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9364325DAAA40E70AF000321 /* Pods_sandbox.framework */; };
-		EA435C6E2550FEF400163DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA435C6D2550FEF400163DBC /* AppDelegate.swift */; };
+		EA0D15882554E7390083F17B /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D15872554E7390083F17B /* Chat.swift */; };
 		EA625F91254FC280002A65E0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA625F90254FC280002A65E0 /* MapView.swift */; };
 		EA8C805B254FA2AF00305679 /* sandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C805A254FA2AF00305679 /* sandboxApp.swift */; };
 		EA8C805D254FA2AF00305679 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C805C254FA2AF00305679 /* ContentView.swift */; };
@@ -21,7 +21,7 @@
 		9364325DAAA40E70AF000321 /* Pods_sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79E402EF7C28E145289269E /* Pods-sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandbox.debug.xcconfig"; path = "Target Support Files/Pods-sandbox/Pods-sandbox.debug.xcconfig"; sourceTree = "<group>"; };
 		E177B43F33356C7F91D41E60 /* Pods-sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandbox.release.xcconfig"; path = "Target Support Files/Pods-sandbox/Pods-sandbox.release.xcconfig"; sourceTree = "<group>"; };
-		EA435C6D2550FEF400163DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0D15872554E7390083F17B /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		EA625F90254FC280002A65E0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EA8C8057254FA2AF00305679 /* sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8C805A254FA2AF00305679 /* sandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandboxApp.swift; sourceTree = "<group>"; };
@@ -82,7 +82,6 @@
 		EA8C8059254FA2AF00305679 /* sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				EA435C6D2550FEF400163DBC /* AppDelegate.swift */,
 				EA8C806A254FADE300305679 /* Models */,
 				EA8C805A254FA2AF00305679 /* sandboxApp.swift */,
 				EA8C805C254FA2AF00305679 /* ContentView.swift */,
@@ -106,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				EA8C806B254FADF400305679 /* VeganFoodPlace.swift */,
+				EA0D15872554E7390083F17B /* Chat.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8C805D254FA2AF00305679 /* ContentView.swift in Sources */,
+				EA0D15882554E7390083F17B /* Chat.swift in Sources */,
 				EA625F91254FC280002A65E0 /* MapView.swift in Sources */,
 				EA8C805B254FA2AF00305679 /* sandboxApp.swift in Sources */,
-				EA435C6E2550FEF400163DBC /* AppDelegate.swift in Sources */,
 				EA8C806C254FADF400305679 /* VeganFoodPlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
